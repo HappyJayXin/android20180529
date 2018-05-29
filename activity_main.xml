@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="新增  修改" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="刪除" />
+    <EditText android:id="@+id/editText1"
+        android:text="m2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText android:id="@+id/editText2"
+        android:text="台南大遠百威秀影城"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText android:id="@+id/editText3"
+        android:text="看電影"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText android:id="@+id/editText4"
+        android:text="22.995570"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText android:id="@+id/editText5"
+        android:text="120.206062"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView android:id="@+id/showData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
